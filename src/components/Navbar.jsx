@@ -1,4 +1,4 @@
-import { Menu, Hotel, LogIn } from 'lucide-react'
+import { Menu, Building2, LogIn } from 'lucide-react'
 
 export default function Navbar() {
   return (
@@ -8,7 +8,7 @@ export default function Navbar() {
           <div className="flex h-14 items-center justify-between px-4">
             <div className="flex items-center gap-2">
               <div className="flex h-8 w-8 items-center justify-center rounded-md bg-gradient-to-br from-violet-500 to-cyan-500">
-                <Hotel className="h-5 w-5 text-white" />
+                <Building2 className="h-5 w-5 text-white" />
               </div>
               <span className="text-sm sm:text-base font-semibold tracking-tight text-white/90">OneHotel Suite</span>
             </div>
